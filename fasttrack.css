@@ -475,94 +475,94 @@ input:focus ~ .bar::after {
    MOBILE — หน้าจอแคบกว่า 700px
 ============================================================ */
 @media screen and (max-width: 700px) {
-  body {
+  /* body {
     background-color: #fff;
-  }
+  } */
 
   /* ยกเลิก A4 fixed width — ให้ขยายเต็มหน้าจอแทน */
   .page {
     width: 100% !important;
-    min-height: unset !important;
-    margin: 0 !important;
-    padding: 1.2rem 1rem 5rem !important;
-    box-shadow: none !important;
+    /* min-height: unset !important; */
+    /* margin: 0 !important; */
+    padding: 1.2rem 1rem 5rem 1.2rem!important;
+    /* box-shadow: none !important; */
   }
 
   /* ขนาดฟอนต์ใหญ่ขึ้นให้อ่านง่าย */
-  body, p, label, input, span, h1, .section-title, .subsection-title {
+  /* body, p, label, input, span, h1, .section-title, .subsection-title {
     font-size: 1rem !important;
-  }
+  } */
 
-  h1 { font-size: 1rem !important; }
+  /* h1 { font-size: 1rem !important; } */
 
   /* .line ให้ wrap และเรียงแนวตั้ง */
-  .line {
+  /* .line {
     flex-wrap: wrap;
     gap: 0.2rem;
     margin-bottom: 0.5rem;
-  }
+  } */
 
   /* input เต็มความกว้างเสมอบนมือถือ */
-  .input {
+  /* .input {
     width: 100% !important;
     flex: 1 1 100% !important;
     min-width: unset !important;
-  }
+  } */
 
   /* ยกเลิก max-width inline ที่ทำให้ช่องแคบเกินไปบนมือถือ */
-  .input[style*="max-width"] {
+  /* .input[style*="max-width"] {
     max-width: 100% !important;
     flex: 1 1 6rem !important;
-  }
+  } */
 
   /* radio group คำนำหน้า */
-  .radio-group {
+  /* .radio-group {
     flex-wrap: wrap;
     gap: 0.4rem;
-  }
+  } */
 
   /* check-row */
-  .check-row {
+  /* .check-row {
     flex-wrap: wrap;
     margin-left: 0 !important;
     gap: 0.3rem;
-  }
+  } */
 
-  .checkbox-block {
+  /* .checkbox-block {
     margin-left: 0 !important;
     white-space: normal;
-  }
+  } */
 
   /* signature section — ลดร่นเข้า */
-  .signature-section {
+  /* .signature-section {
     margin-left: 0 !important;
     align-items: center;
-  }
+  } */
 
-  .sig-row {
+  /* .sig-row {
     flex-wrap: nowrap;
     justify-content: center;
-  }
-
+  } */
+/* 
   .sig-box {
     width: 55vw !important;
     max-width: 9cm;
-  }
+  } */
 
-  .sig-name-row {
+  /* .sig-name-row {
     margin-left: 0 !important;
     justify-content: center;
-  }
+  } */
 
   .name-input-wrap {
     width: 55vw !important;
     max-width: 9cm;
   }
 
-  .sig-date-row {
+  /* .sig-date-row {
     margin-left: 0 !important;
     justify-content: center;
-  }
+  } */
 
   /* ปุ่มบันทึก — เต็มความกว้าง ติดด้านล่าง */
   #saveBtn {
