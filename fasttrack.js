@@ -221,6 +221,8 @@ document.addEventListener("DOMContentLoaded", () => {
         confirmButtonColor: "#1a5276",
         timer: 2500,
         timerProgressBar: true,
+      }).then(() => {
+        window.location.reload();
       });
     } catch (err) {
       Swal.fire({
