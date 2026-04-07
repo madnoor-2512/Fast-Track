@@ -490,11 +490,11 @@ input:focus ~ .bar::after {
   }
 
   /* .line ให้ wrap และเรียงแนวตั้ง */
-  .line {
+  /* .line {
     flex-wrap: wrap;
     gap: 0.2rem;
     margin-bottom: 0.5rem;
-  }
+  } */
 
   /* input เต็มความกว้างเสมอบนมือถือ */
   .input {
@@ -504,28 +504,28 @@ input:focus ~ .bar::after {
   }
 
   /* ยกเลิก max-width inline ที่ทำให้ช่องแคบเกินไปบนมือถือ */
-  .input[style*="max-width"] {
+  /* .input[style*="max-width"] {
     max-width: 100% !important;
     flex: 1 1 6rem !important;
-  }
+  } */
 
   /* radio group คำนำหน้า */
-  .radio-group {
+  /* .radio-group {
     flex-wrap: wrap;
     gap: 0.4rem;
-  }
+  } */
 
   /* check-row */
-  .check-row {
+  /* .check-row {
     flex-wrap: wrap;
     margin-left: 0 !important;
     gap: 0.3rem;
-  }
+  } */
 
-  .checkbox-block {
+  /* .checkbox-block {
     margin-left: 0 !important;
     white-space: normal;
-  }
+  } */
 
   /* signature section — ลดร่นเข้า */
   .signature-section {
